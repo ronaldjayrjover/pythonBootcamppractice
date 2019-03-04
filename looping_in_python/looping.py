@@ -31,3 +31,11 @@ for numA in range(10,20,2):
 
 for numB in range(7,0,-1):
     print(numB)
+
+##########
+print("Start of While Loop")
+print("#########\n")
+
+user_response = None
+while user_response != "please":
+    user_response = input("magic word")
